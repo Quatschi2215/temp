@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <style>
+    body { font-family: sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; background:#0f172a; color:white; }
+    form { background:#1e293b; padding:30px; border-radius:10px; }
+    input { padding:10px; margin-top:10px; width:97.5%; border-radius:6px; border:none; }
+    button { padding:10px; width:100%; background:#2563eb; border:none; color:white; font-weight:bold; margin-top:10px; border-radius:6px; cursor:pointer; }
+    .error { color:#ff7b7b; margin-top:10px; }
+  </style>
+</head>
+<body>
+  <form method="post">
+    <h2>Password needed</h2>
+    <input type="password" name="password" placeholder="Passwort eingeben" required>
+    <button type="submit">Login</button>
+    {% if error %}<div class="error">{{ error }}</div>{% endif %}
+    <h2><br>About Me:</h2>
+  <h3><br>Hi i'm Lina and i'm 17 if you have a Password - Enter it <br>If you need one send "Pics17" to "5Q63PBCRK" on TeleGuard and follow the instructions</h3>
+  </form>
+</body>
+</html>
