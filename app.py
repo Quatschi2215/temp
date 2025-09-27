@@ -4,7 +4,7 @@ app = Flask(__name__)
 app.secret_key = "$@&5R5mrevR5HKhy*SKAoqFYjphfE^qsj!TjpyLjjDvSirk^UxTr5eNEFFodF!MmsUG#@$QjN2x&uc6soHcLUUDeeaBZu@U%5AEEZAYfQ^ZKc^VEW5tc88i8t^3JDnVN"  # ändern!
 
 # Passwort
-PASSWORD = "Cz3$oFjyA!jL57mLPuyby^2T2^pXNNQh"
+PASSWORD = "HDIOHoihiohioIHDOIHD/677?)§"
 
 # URLs deiner Bilder
 IMAGE_URLS = [
